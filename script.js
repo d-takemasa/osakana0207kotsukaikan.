@@ -35,10 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // currentOccurrences: 現在の発生回数（初期値0）。
     // description: モーダル表示時に使う説明文。
     const prizes = [
-        { id: 'A', name: "A賞：オリジナル カトラリー", image: "prize_images/prize_A.png", weight: 40, maxOccurrences: 200, currentOccurrences: 0, description: "おめでとう！波のきらめきを食卓へ！" },
-        { id: 'B', name: "B賞：オリジナル 巾着", image: "prize_images/prize_B.png", weight: 30, maxOccurrences: 100, currentOccurrences: 0, description: "大漁旗のように、あなたの個性をアピールしよう！" },
-        { id: 'C', name: "C賞：オリジナル 付箋", image: "prize_images/prize_C.png", weight: 20, maxOccurrences: 75, currentOccurrences: 0, description: "おめでとうございます！整理整頓の達人へ！！" },
-        { id: 'D', name: "D賞：オリジナル スマホスタンド", image: "prize_images/prize_D.png", weight: 20, maxOccurrences: 75, currentOccurrences: 0, description: "おめでとう！スマホも喜ぶ特等席！！" },
+        { id: 'A', name: "A賞：オリジナル カトラリー", image: "prize_images/prize_A.png", weight: 37, maxOccurrences: 200, currentOccurrences: 0, description: "おめでとう！波のきらめきを食卓へ！" },
+        { id: 'B', name: "B賞：オリジナル 巾着", image: "prize_images/prize_B.png", weight: 25, maxOccurrences: 100, currentOccurrences: 0, description: "大漁旗のように、あなたの個性をアピールしよう！" },
+        { id: 'C', name: "C賞：オリジナル 付箋", image: "prize_images/prize_C.png", weight: 18, maxOccurrences: 75, currentOccurrences: 0, description: "おめでとうございます！整理整頓の達人へ！！" },
+        { id: 'D', name: "D賞：オリジナル スマホスタンド", image: "prize_images/prize_D.png", weight: 18, maxOccurrences: 75, currentOccurrences: 0, description: "おめでとう！スマホも喜ぶ特等席！！" },
     ];
 
     let isSpinning = false; // 抽選中フラグ
@@ -248,4 +248,5 @@ document.addEventListener('DOMContentLoaded', () => {
         hidePrizeModal();
     });
 });
+
 
